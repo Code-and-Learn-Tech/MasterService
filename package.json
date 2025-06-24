@@ -1,0 +1,27 @@
+{
+  "name": "masterservice",
+  "version": "1.0.0",
+  "description": "Create a microservice to fetch static content for - castes - ethnicity - school",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Code-and-Learn-Tech/MasterService.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Code-and-Learn-Tech/MasterService/issues"
+  },
+  "homepage": "https://github.com/Code-and-Learn-Tech/MasterService#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "nodemon": "^3.1.10"
+  }
+}
